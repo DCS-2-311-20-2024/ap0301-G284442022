@@ -1,6 +1,6 @@
 //
 // 応用プログラミング 第3回 課題1 (ap0301)
-// G384002023 拓殖太郎
+// G2844442022 河口歩夢
 //
 "use strict"; // 厳格モード
 
@@ -45,7 +45,7 @@ function init() {
   }
   scene.add(robots);
   // 光源の設定
-  const spotLight = new THREE.SpotLight(0xffffff, 1200);
+  const spotLight = new THREE.SpotLight(0xffffff, 1800);
   spotLight.position.set(0, 30, 30);
   spotLight.castShadow=true;
   scene.add(spotLight);
